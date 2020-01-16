@@ -9,8 +9,11 @@ body {
     background: #60B198;
 }
 
+
+
 img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 /* ==================
@@ -57,6 +60,7 @@ accent-color {
     font-size: 2rem;
     line-height: 1.4;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .hero-subtitle {
@@ -89,24 +93,56 @@ accent-color {
 
 /* buttons */
 
+
+.buttons {
+    display: flex;
+    align-items: center; 
+    box-sizing: border-box;
+    
+}
+
 .btn {
-    padding: .5em 1.75em;
+    padding: 1em 1.75em;
     font-weight: 700;
-    margin-top: .5em;
+    .margin-top: .5em;
     text-decoration: none;
-    border: 0;
     cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    width: 300px;
 }
 
 .btn-primary {
     background: linear-gradient(to right, #ff8900 9%,#bf18c6 99%);
+    border: 3px solid;
+    border-image-source: linear-gradient(to right, #ff8900 9%,#bf18c6 99%);
+    border-image-slice: 1;    
     color: #fff;
-    justify-self: start;
+    justify-self: center;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.btn-secondary {
+    background: none;
+    border: 3px solid;
+    border-image-source: linear-gradient(to right, #ff8900 9%,#bf18c6 99%);
+    border-image-slice: 1;    
+    color: #fff;
+    box-sizing: border-box;
+    margin-left: 2em;
+
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:focus,
+.btn-secondary:hover,
+.btn-secondary:focus {
   background-position: right center;
+  background: #fff;
+  border: 3px solid #fff;
+  color: orangered;
 }
 
 .btn-form {
@@ -121,7 +157,7 @@ accent-color {
 
 .main-grid {
     display: grid;
-    grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+    grid-template-columns: minmax(1em, 1fr) minmax(0px, 300px) minmax(1em, 1fr);
     grid-column-gap: 2em;
 }
 
@@ -134,7 +170,7 @@ accent-color {
 /* navigation */
 
 .header {
-    background: black;
+    .background: black;
 }
 
 .header-home {
@@ -154,6 +190,10 @@ accent-color {
 
 }
 
+.header-content logo {
+    grid-column: 2 / -1;
+}
+
 .logo-link {
     .background-color: black;
     padding-top: 1em;
@@ -162,7 +202,7 @@ accent-color {
 }
 
 .logo {
-  height:5em;
+  height:4.5em;
   width: auto;
 }
 
@@ -199,6 +239,13 @@ accent-color {
     flex-direction: column;
 }
 
+@media (min-width: 600px) {
+    .nav-list {
+    margin-top: 1em;
+    margin-left: 10em;
+    }
+}
+
 .nav-link {
     color: #fff;
     text-decoration: none;
@@ -208,7 +255,9 @@ accent-color {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #FFE600;
+    background-image:linear-gradient(to right, #ff8900 9%,#bf18c6 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .close-nav {
@@ -227,13 +276,16 @@ accent-color {
     background: 0;
     color: #fff;
     cursor: pointer;
-    padding: .75em;
-    margin-left: 2em;
+    .padding: .75em;
+    .margin-left: 2em;
     font-size: 2em;
 }
 
 .current {
-    border-bottom: 1px solid #FFE600;
+    border-bottom: 2px solid;
+    padding-bottom: 0.25em;
+    border-image-source: linear-gradient(to right, #ff8900 9%,#bf18c6 99%);
+    border-image-slice: 1;  
 }
 
 @media (min-width: 600px) {
@@ -286,7 +338,11 @@ accent-color {
 .footer-logo,
 .footer-text,
 .footer-fineprint {
-    opacity: .3;
+    opacity: .8;
+}
+
+.footer-logo {
+   width: 300px; 
 }
 
 .footer-main {
@@ -340,14 +396,18 @@ accent-color {
     background-image: url(../images/hero-graphic.png);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-position: 270% 80%;
+    background-position: 270% 40%;
     padding: 8em 0 4em;
     color: #fff;
-    .height: 100vh;
+
 }
 
 .hero > * {
-    grid-column: 2 / -2;
+    grid-column: 2 / -3;
+}
+
+.hero-title {
+    grid-column: 2 / 2;
 }
 
 @media (min-width: 400px) {
@@ -363,6 +423,8 @@ accent-color {
         background-size: 50%;
         background-repeat: no-repeat;
         background-position: 140% 30%;
+        height: 100vh;
+
     }
     
     .hero > * {
