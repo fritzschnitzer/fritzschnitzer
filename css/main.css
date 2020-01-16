@@ -157,13 +157,14 @@ accent-color {
 
 .main-grid {
     display: grid;
-    grid-template-columns: minmax(1em, 1fr) minmax(0px, 300px) minmax(1em, 1fr);
-    grid-column-gap: 2em;
+    grid-template-columns: 1em minmax(0px, 300px) minmax(1em, 1fr);
 }
 
 @media (min-width: 600px) {
     .main-grid {
         grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(150px, 320px)) minmax(1em, 1fr);
+        grid-column-gap: 2em;
+
     }
 }
 
