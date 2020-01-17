@@ -49,19 +49,19 @@
             </div>
                         
             <div class="main-text">
-                <form class="contact-form" action="contactform.php" method="POST">
+                <form class="contact-form" action="contact-form-handler.php" method="POST">
                     
                     <label class="name-label" for="name">Name</label>
-                    <input class="name-input" id="name" type="text" name="name">
+                    <input class="name-input" id="name" type="text" name="name" required>
 
                     <label class="email-label" for="email">email</label>
-                    <input class="email-input" id="email" type="email" name="email">
+                    <input class="email-input" id="email" type="email" name="email" required>
 
                     <label class="subject-label" for="subject">Subject</label>
                     <input class="subject-input" id="subject" type="text" name="subject">
                     
                     <label class="message-label" for="message">Message</label>
-                    <textarea class="message-textarea" id="message" name="message"></textarea>
+                    <textarea class="message-textarea" id="message" name="message" required></textarea>
                     
                     <button type="submit" name="submit" class="btn btn-primary btn-form">send</button>
                 </form>
