@@ -15,10 +15,10 @@
         <link href="css/main.css" rel="stylesheet">
     </head>
      <body>
-        <header class="header main-grid">
+        <header class="header header-home main-grid">
             <div class="header-content">
                 <a class="logo-link" href="index.html">
-                    <img src="img/logo.png" alt="" class="logo">
+                    <img src="../images/logo.png" alt="" class="logo">
                 </a>
                 <button aria-label="Open navigation" class="open-nav">&#9776;</button>
 
@@ -28,7 +28,7 @@
                         <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">about</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link current">contact</a></li>
-                        <li class="nav-item"><a href="https://www.behance.net/fritzschnitzer" class="nav-link">portfolio</a></li>
+                        <li class="nav-item"><a href="https://www.behance.net/schnitzer1576" class="nav-link" target="_blank">portfolio</a></li>
 
                     </ul>
                 </nav>
@@ -40,27 +40,30 @@
         <main class="main-template main-grid">
             
             <h1 class="page-title">Contact.</h1>
-            <p class="subtitle">Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+            <p class="subtitle">Let me know how i can help you and i'll shoot you an answer in a matter of 24 hours.</p>
             
-            <img class="main-image" src="img/contact.jpg" alt="a bunch of mailboxes">
+            <img class="main-image" src="../images/mailboxes.jpg" alt="a bunch of mailboxes">
             <div class="secondary-text">
-                <h2 class="section-title">Getting in touch with us</h2>
-                <p>You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
+                <h2 class="section-title">Getting in touch with me</h2>
+                <p>You can either use the form or send me an email. I'll get back in touch with you as soon as possible!</p>
             </div>
                         
             <div class="main-text">
-                <form class="contact-form" action="#" method="POST">
+                <form class="contact-form" action="contactform.php" method="POST">
                     
-                    <label class="fname-label" for="fname">First Name</label>
-                    <input class="fname-input" id="fname" type="text">
-                    
-                    <label class="lname-label" for="lname">Last Name</label>
-                    <input class="lname-input" id="lname" type="text">
+                    <label class="name-label" for="name">Name</label>
+                    <input class="name-input" id="name" type="text" name="name">
+
+                    <label class="email-label" for="email">email</label>
+                    <input class="email-input" id="email" type="email" name="email">
+
+                    <label class="subject-label" for="subject">Subject</label>
+                    <input class="subject-input" id="subject" type="text" name="subject">
                     
                     <label class="message-label" for="message">Message</label>
-                    <textarea class="message-textarea" id="message"></textarea>
+                    <textarea class="message-textarea" id="message" name="message"></textarea>
                     
-                    <button class="btn btn-primary btn-form">send</button>
+                    <button type="submit" name="submit" class="btn btn-primary btn-form">send</button>
                 </form>
             </div>
             
@@ -69,14 +72,16 @@
         
         <footer class="footer main-grid">
             <div class="footer-main">
-                <img src="img/logo.png" alt="" class="footer-logo">
+                <img src="../images/logo.png" alt="" class="footer-logo">
                 <p class="footer-text">Two brothers from Chicago that are just trying to pay back their debt by helping others with their SEO, SEM, and Content Marketing needs.</p>
-                <p class="footer-fineprint">© Jake&Elwood 2019</p>
+                <p class="footer-fineprint">© Fritz Schnitzer 2020</p>
             </div>
             <ul class="social-list">
-                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
-                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-item"><a href="https://www.facebook.com/fritzschnitzer" class="social-link" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="social-item"><a href="https://twitter.com/fritzschnitzer" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-item"><a href="http://instagram.com/fritzschnitzer" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-item"><a href="http://dribbble.com/fritzschnitzer" class="social-link" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+
             </ul>
         </footer>
         
