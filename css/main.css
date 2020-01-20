@@ -281,7 +281,7 @@ accent-color {
     color: #fff;
     cursor: pointer;
     .padding: .75em;
-    margin-left: 1em;
+    margin-left: 0.25em;
     font-size: 2em;
 }
 
