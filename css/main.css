@@ -64,6 +64,10 @@ accent-color {
     flex-direction: column;
 }
 
+.contacts {
+    margin: 0;
+}
+
 @media (min-width: 600px) {
     .contactbox {
     flex-direction: row;
@@ -73,11 +77,13 @@ accent-color {
     .far {
         margin-left: 2em;
     }
+
+    .contacts {
+        margin: 2em;
+    }
 }
 
-.contacts {
-    margin: 0;
-}
+
 
 .fas,
 .far {
