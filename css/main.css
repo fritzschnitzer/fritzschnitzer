@@ -380,7 +380,7 @@ accent-color {
 .footer-logo,
 .footer-text,
 .footer-fineprint {
-    opacity: .8;
+    opacity: .6;
 }
 
 .footer-logo {
@@ -430,6 +430,7 @@ accent-color {
     
     .social-list {
         justify-content: flex-end;
+        margin-top: 1.5em;
     }
 }
 
