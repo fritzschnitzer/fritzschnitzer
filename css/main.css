@@ -75,6 +75,10 @@ accent-color {
     }
 }
 
+.contacts {
+    margin: 0;
+}
+
 .fas,
 .far {
     margin-right: 0.25em;
