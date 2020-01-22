@@ -58,6 +58,11 @@ accent-color {
     font-size: 1.125rem;
 }
 
+.subtitle-contact {
+    margin-bottom: 0;
+    text-align: center;
+}
+
 .contactbox {
     text-align: center;
     display: flex;
