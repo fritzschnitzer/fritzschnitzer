@@ -113,7 +113,14 @@ accent-color {
 
 @media (min-width: 600px) {
     .hero-subtitle {
-        margin-bottom: 0em;
+        margin-bottom: 6em;
+        margin-top: 0em;
+        align-self: start;
+    }
+
+    .hero-title {
+        margin-bottom: 0;
+        align-self: start;
     }
 }
 
