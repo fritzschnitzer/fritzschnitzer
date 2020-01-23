@@ -59,7 +59,7 @@ accent-color {
 }
 
 .subtitle-contact {
-    margin-bottom: 0;
+    margin-bottom: 2em;
     text-align: center;
 }
 
@@ -67,6 +67,7 @@ accent-color {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2em;
 }
 
 .contacts {
