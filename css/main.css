@@ -108,6 +108,7 @@ accent-color {
 
 .hero-subtitle {
     font-size: 1.125rem;
+    margin-bottom: 3em;
 }
 
 .section-title {
@@ -497,6 +498,7 @@ accent-color {
 
 .col {
     grid-column: 2 / -2;
+    margin-bottom: 1.5em;
 }
 
 @media (min-width: 600px) {
