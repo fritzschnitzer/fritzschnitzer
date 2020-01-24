@@ -208,6 +208,9 @@ accent-color {
     .justify-self: stretch;
     font-size: 1rem;
     margin-top: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
 }
 
 
