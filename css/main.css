@@ -325,7 +325,7 @@ accent-color {
 .close-nav {
     border: 0;
     background: 0;
-    color: #FFE600;
+    color: #FF8900;
     font-weight: 700;
     font-size: 3rem;
     cursor: pointer;
@@ -547,7 +547,7 @@ accent-color {
 @media (min-width: 600px) {
     .main-image,
     .secondary-text {
-        grid-column: 2;
+        grid-column: 2 / -2;
     }
     
     .main-text {
