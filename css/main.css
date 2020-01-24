@@ -218,8 +218,7 @@ accent-color {
 
 .main-grid {
     display: grid;
-    grid-template-columns: 1em minmax(0px, 300px) 1em;
-    margin: 0 auto;
+    grid-template-columns: 1em minmax(0px, 400px) 1em;
 }
 
 @media (min-width: 600px) {
@@ -548,7 +547,7 @@ accent-color {
 @media (min-width: 600px) {
     .main-image,
     .secondary-text {
-        grid-column: 2 / -4;
+        grid-column: 2 / -;
     }
     
     .main-text {
