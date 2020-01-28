@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    color: #404040;
+    color: #b66363;
     line-height: 1.6;
     background: #60B198;
     background: #6CBFA6;
@@ -124,6 +124,8 @@ accent-color {
         align-self: start;
     }
 }
+
+
 
 .section-title {
     font-size: 1.125rem;
@@ -443,7 +445,7 @@ accent-color {
 @media (min-width: 600px) {
     .footer {
         grid-template-areas: 
-          ". main main social ."
+          ". main main social .";
     }
     
     .footer-main {
@@ -498,6 +500,36 @@ accent-color {
     .hero > * {
         grid-column: 2 / span 2;
     }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    .hero {
+        padding: 10em 0 6em;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 160% -100%;
+        height: 68vh;
+
+    }
+
+    hero > * {
+        grid-column: 2 / span 2;
+    }
+
+    .nav-list {
+        margin-left: 2em;
+    }
+
+    .hero-title {
+        margin-bottom: 1em;
+        margin-top: 0;
+    }
+
+    
+    
 
 }
 
