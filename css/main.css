@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-body {
+body.master {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -8,6 +8,20 @@ body {
     line-height: 1.6;
     background: #60B198;
     background: #6CBFA6;
+}
+
+body.portfolio {
+    background: #202020;
+    background-image: url(../images/collage.png);
+    background-size: cover;
+    background-position: 0px -20px;
+    background-repeat: no-repeat;
+    back
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #404040;
+    line-height: 1.6;
 }
 
 
@@ -43,7 +57,20 @@ accent-color {
     display: inline;
 }
 
-.page-title::after {
+.page-title-portfolio {
+    font-size: 3rem;
+    color: #fff;
+    opacity: 0.8;
+    text-shadow: #000;
+    margin-top: 3em;
+    margin-bottom: .5em;
+    justify-self: center;
+    display: inline;
+    
+}
+
+.page-title::after,
+.page-title-portfolio::after {
     content: '';
     display: block;
     width: 100%;
