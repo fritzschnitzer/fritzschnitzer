@@ -26,6 +26,8 @@ body.portfolio {
 @media (min-width: 600px) {
     body.portfolio {
         background-image: url(../images/collage.jpg);
+        background-size: 100%;
+
     }
 }
 
@@ -286,6 +288,10 @@ accent-color {
         grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(150px, 320px)) minmax(1em, 1fr);
         grid-column-gap: 2em;
 
+    }
+
+    .portfolios-menu {
+        margin-top: 15%;
     }
 }
 
