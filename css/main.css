@@ -251,7 +251,7 @@ accent-color {
     padding: 10px;
     background: #053EFF;
     border: 0;
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
 }
 
 .portfolio-link {
