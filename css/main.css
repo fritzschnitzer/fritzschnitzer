@@ -12,16 +12,21 @@ body.master {
 
 body.portfolio {
     background: #202020;
-    background-image: url(../images/collage.jpg);
+    background-image: url(../images/collage-smartphones.png);
     background-size: cover;
     background-position: 0px -20px;
     background-repeat: no-repeat;
-    back
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #404040;
     line-height: 1.6;
+}
+
+@media (min-width: 600px) {
+    body.portfolio {
+        background-image: url(../images/collage.jpg);
+    }
 }
 
 
@@ -241,6 +246,19 @@ accent-color {
     width: 100%;
 }
 
+.portfolio-btn {
+    text-decoration: none;
+    padding: 10px;
+    background: #053EFF;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+.portfolio-link {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
 
 
 /* ==================
