@@ -14,7 +14,7 @@ body.portfolio {
     background: #202020;
     background-image: url(../images/collage-smartphones.png);
     background-size: cover;
-    background-position: 0px -20px;
+    .background-position: 0px -20px;
     background-repeat: no-repeat;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +30,7 @@ body.portfolio {
 @media (min-width: 600px) {
     body.portfolio {
         background-image: url(../images/collage.jpg);
-        background-size: 100%;
+        background-size: cover;
         
 
     }
