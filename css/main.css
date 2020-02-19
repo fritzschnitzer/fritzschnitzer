@@ -314,7 +314,7 @@ accent-color {
 .portfolios-menu {
     display: flex;
     flex-direction: column;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 @media (min-width: 600px) {
