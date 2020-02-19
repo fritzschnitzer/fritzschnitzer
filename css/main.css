@@ -260,7 +260,6 @@ accent-color {
     background: #053EFF;
     border: 0;
     margin: 0 auto 2em;
-    width: 40%;
 }
 
 .lettering-btn {
@@ -270,7 +269,7 @@ accent-color {
 .portfolio-link {
     color: #fff;
     text-decoration: none;
-    text-align: ;
+    text-align: center;
 }
 
 
@@ -757,24 +756,4 @@ textarea {
         grid-column: 2;
     }
     
-}
-
-
-/* ==================
-    portfolio-menu
-===================== */
-
-.fab {
-    margin-right: 1em;
-    color: #fff;
-}
-
-.fa-behance {
-    padding: 0.5em;
-    border: 2px solid #fff;
-    border-radius: 5px;
-}
-
-.fa-instagram {
-    margin-right: 0.5em;
 }
