@@ -14,7 +14,7 @@ body.portfolio {
     background: #202020;
     background-image: url(../images/collage-smartphones.png);
     background-size: cover;
-    z-index: 100;
+    .z-index: 100;
     .background-position: 0px -20px;
     background-repeat: no-repeat;
     margin: 0;
