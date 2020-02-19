@@ -14,6 +14,7 @@ body.portfolio {
     background: #202020;
     background-image: url(../images/collage-smartphones.png);
     background-size: cover;
+    z-index: 9999;
     .background-position: 0px -20px;
     background-repeat: no-repeat;
     margin: 0;
@@ -27,9 +28,21 @@ body.portfolio {
         align-items: center;
 }
 
+.blackbox {
+    background: #000;
+    width: 450px;
+    height: 500px;
+    position: fixed;
+    filter: blur(20px);
+    opacity: .9;
+
+}
+
+
+
 @media (min-width: 600px) {
     body.portfolio {
-        background-image: url(../images/collage.jpg);
+        background-image: url(../images/collage.png);
         background-size: cover;
         
 
@@ -257,7 +270,7 @@ accent-color {
     text-decoration: none;
     font-size: 1.5rem;
     padding: 1.8em;
-    background: #053EFF;
+    background: #3D3DBF;
     border: 0;
     margin: 0 auto 1em;
     width: auto;
