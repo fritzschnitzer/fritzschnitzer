@@ -33,8 +33,8 @@ body.portfolio {
     width: 450px;
     height: 500px;
     position: fixed;
-    filter: blur(20px);
-    opacity: .9;
+    filter: blur(30px);
+    opacity: .35;
 
 }
 
@@ -44,9 +44,10 @@ body.portfolio {
     body.portfolio {
         background-image: url(../images/collage.png);
         background-size: cover;
-        
+     }
 
-    }
+     .blackbox {
+       
 }
 
 
