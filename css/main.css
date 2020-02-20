@@ -321,6 +321,7 @@ accent-color {
 .portfolios-menu {
     display: flex;
     flex-direction: column;
+    z-index: -1;
     .background: #000;
     .filter: blur(50px);
     .opacity: .9;
