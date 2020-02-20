@@ -14,7 +14,7 @@ body.portfolio {
     background: #202020;
     background-image: url(../images/collage-smartphones.png);
     background-size: cover;
-    .z-index: 100;
+    z-index: 1;
     .background-position: 0px -20px;
     background-repeat: no-repeat;
     margin: 0;
@@ -28,14 +28,9 @@ body.portfolio {
         align-items: center;
 }
 
-.blackbox {
-    background: #000;
-    width: 300px;
-    height: 500px;
-    position: fixed;
-    filter: blur(50px);
-    opacity: .3;
-}
+
+    
+
 
 
 
@@ -326,7 +321,12 @@ accent-color {
 .portfolios-menu {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    .background: #000;
+    .filter: blur(50px);
+    .opacity: .9;
+  
+    
+
 }
 
 @media (min-width: 600px) {
@@ -351,9 +351,7 @@ accent-color {
     width: 100%;
 }
 
-.header-portfolio {
-    margin-bottom: 10em;
-}
+
 
 
 
@@ -704,9 +702,13 @@ and (max-device-width : 1025px)  {
 ===================== */
 
 .main-template {
-    .padding: 4em 0;
+    padding: 6em 0;
     display: grid;
     
+}
+
+.template-portfolio {
+    margin-top: 4em;
 }
 
 .main-template > * {
