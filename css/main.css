@@ -321,7 +321,7 @@ accent-color {
 .portfolios-menu {
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    z-index: 0;
     .background: #000;
     .filter: blur(50px);
     .opacity: .9;
@@ -397,6 +397,7 @@ accent-color {
     left: 100%;
     transform: translateX(0);
     transition: transform 250ms;
+    z-index: 9999;
 }
 
 .navigation-open {
@@ -454,7 +455,7 @@ accent-color {
     .padding: .75em;
     margin-left: 0.7em;
     font-size: 2rem;
-    z-index: 9999;
+    z-index: 3;
 }
 
 .current {
