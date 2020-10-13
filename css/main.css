@@ -349,6 +349,7 @@ accent-color {
 .header-home {
     background: transparent;
     width: 100%;
+    position: absolute;
 }
 
 
