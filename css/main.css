@@ -354,6 +354,8 @@ accent-color {
 
 .header-portfolio {
         -moz-position: absolute;
+        background: transparent;
+        width: 100%;
 
     }
 
