@@ -350,6 +350,7 @@ accent-color {
     background: transparent;
     width: 100%;
     -moz-position: absolute;
+    -webkit-position: absolute;
 }
 
 .header-portfolio {
@@ -392,7 +393,7 @@ accent-color {
 }
 
 .nav {
-    position: fixedd;
+    position: fixed;
     background: #000;
     width: 100%;
     top: 0;
