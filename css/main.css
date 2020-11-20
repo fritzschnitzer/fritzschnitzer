@@ -398,7 +398,6 @@ accent-color {
     transform: translateX(0);
     transition: transform 250ms;
     z-index: 9999;
-    filter: blur(10px);
 }
 
 .navigation-open {
