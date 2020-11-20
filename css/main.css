@@ -352,6 +352,10 @@ accent-color {
     position: absolute;
 }
 
+.header-portfolio {
+    position: absolute;
+}
+
 
 
 
@@ -388,7 +392,7 @@ accent-color {
 }
 
 .nav {
-    .position: fixed;
+    position: fixed;
     background: #000;
     width: 100%;
     top: 0;
