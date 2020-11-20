@@ -349,8 +349,13 @@ accent-color {
 .header-home {
     background: transparent;
     width: 100%;
-    position: absolute;
+    -moz-position: absolute;
 }
+
+.header-portfolio {
+        -moz-position: absolute;
+
+    }
 
 
 
@@ -398,7 +403,6 @@ accent-color {
     transform: translateX(0);
     transition: transform 250ms;
     z-index: 9999;
-    filter: blur(10px);
 }
 
 .navigation-open {
