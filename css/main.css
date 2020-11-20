@@ -605,7 +605,7 @@ accent-color {
 @media (min-width: 600px) {
     
     .hero {
-        padding: 10em 0 6em;
+        padding: 3em 0 6em;
         background-size: 50%;
         background-repeat: no-repeat;
         background-position: 140% 30%;
