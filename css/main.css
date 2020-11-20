@@ -83,7 +83,7 @@ accent-color {
     text-shadow: #000;
     margin-top: .3em;
     margin-bottom: .5em;
-    justify-self: center;
+    justify-self: .center;
     display: inline;
     
 }
