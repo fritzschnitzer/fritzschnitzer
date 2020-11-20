@@ -349,10 +349,11 @@ accent-color {
 .header-home {
     background: transparent;
     width: 100%;
-    position: absolute;
+    -moz-position: absolute;
+    -webkit-position: absolute;
 }
 
-.header-portfolio {
+..header-portfolio {
         -moz-position: absolute;
         background: transparent;
         width: 100%;
