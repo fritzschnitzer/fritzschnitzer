@@ -388,7 +388,7 @@ accent-color {
 }
 
 .nav {
-    position: fixed;
+    .position: fixed;
     background: #000;
     width: 100%;
     top: 0;
