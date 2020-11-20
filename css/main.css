@@ -349,16 +349,8 @@ accent-color {
 .header-home {
     background: transparent;
     width: 100%;
-    -moz-position: absolute;
-    -webkit-position: absolute;
+    position: absolute;
 }
-
-..header-portfolio {
-        -moz-position: absolute;
-        background: transparent;
-        width: 100%;
-
-    }
 
 
 
@@ -406,6 +398,7 @@ accent-color {
     transform: translateX(0);
     transition: transform 250ms;
     z-index: 9999;
+    filter: blur(10px);
 }
 
 .navigation-open {
@@ -585,8 +578,8 @@ accent-color {
     background-image: url(../images/hero-graphic.png);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-position: 270% -10%;
-    padding: 2em 0 4em;
+    background-position: 270% 40%;
+    padding: 8em 0 4em;
     color: #fff;
 
 }
@@ -608,7 +601,7 @@ accent-color {
 @media (min-width: 600px) {
     
     .hero {
-        padding: 4em 0 6em;
+        padding: 10em 0 6em;
         background-size: 50%;
         background-repeat: no-repeat;
         background-position: 140% 30%;
